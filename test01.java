@@ -17,7 +17,7 @@ public class test01{
             URLConnection urlConnection = url.openConnection();
             InputStream inputStream = urlConnection.getInputStream();
             
-            File myFile = new File("D:/Yaya/Work/Year1-2-2564/Object/URL_generator/URL_File/URLConnection01.html");
+            File myFile = new File("./URL_File/URLConnection01.html");
             if(myFile.exists()){
                 myFile.delete();
             }
